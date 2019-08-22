@@ -15,6 +15,7 @@
 		7810E0AA230A490800F528C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810E0A9230A490800F528C2 /* main.m */; };
 		7810E0B4230A490800F528C2 /* TestForFaceIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810E0B3230A490800F528C2 /* TestForFaceIDTests.m */; };
 		7810E0BF230A490800F528C2 /* TestForFaceIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810E0BE230A490800F528C2 /* TestForFaceIDUITests.m */; };
+		7810E0CE230A495300F528C2 /* BioRecognitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810E0CD230A495300F528C2 /* BioRecognitionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7810E0BA230A490800F528C2 /* TestForFaceIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForFaceIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7810E0BE230A490800F528C2 /* TestForFaceIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForFaceIDUITests.m; sourceTree = "<group>"; };
 		7810E0C0230A490800F528C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7810E0CC230A495300F528C2 /* BioRecognitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BioRecognitionManager.h; sourceTree = "<group>"; };
+		7810E0CD230A495300F528C2 /* BioRecognitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BioRecognitionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7810E099230A490600F528C2 /* TestForFaceID */ = {
 			isa = PBXGroup;
 			children = (
+				7810E0CC230A495300F528C2 /* BioRecognitionManager.h */,
+				7810E0CD230A495300F528C2 /* BioRecognitionManager.m */,
 				7810E09A230A490600F528C2 /* AppDelegate.h */,
 				7810E09B230A490600F528C2 /* AppDelegate.m */,
 				7810E09D230A490600F528C2 /* ViewController.h */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7810E0CE230A495300F528C2 /* BioRecognitionManager.m in Sources */,
 				7810E09F230A490600F528C2 /* ViewController.m in Sources */,
 				7810E0AA230A490800F528C2 /* main.m in Sources */,
 				7810E09C230A490600F528C2 /* AppDelegate.m in Sources */,
@@ -370,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS9894ZFJ3;
 				INFOPLIST_FILE = TestForFaceID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS9894ZFJ3;
 				INFOPLIST_FILE = TestForFaceID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
